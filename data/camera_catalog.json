@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Sony A7S III",
+    "category": "Camera Body",
+    "specs": "12MP, 4K 120p, Excellent Low-Light ISO performance",
+    "description": "A mirrorless camera optimized for cinematic video production and shooting in extreme low-light environments with minimal noise."
+  },
+  {
+    "id": 2,
+    "name": "Sigma 35mm f/1.4 DG DN Art",
+    "category": "Lens",
+    "specs": "Prime Lens, Wide f/1.4 Aperture, Sony E-mount",
+    "description": "A razor-sharp wide-aperture prime lens, perfect for capturing candid street photography at night with beautiful background bokeh."
+  }
+]
