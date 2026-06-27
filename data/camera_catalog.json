@@ -3,14 +3,1112 @@
     "id": 1,
     "name": "Sony A7S III",
     "category": "Camera Body",
-    "specs": "12MP, 4K 120p, Excellent Low-Light ISO performance",
-    "description": "A mirrorless camera optimized for cinematic video production and shooting in extreme low-light environments with minimal noise."
+    "specs": "12MP Full-Frame, 4K 120p, 15-stop Dynamic Range",
+    "description": "A high-sensitivity mirrorless camera built for low-light video, professional cinema work, and fast, quiet shooting.",
+    "price": 2448.63
   },
   {
     "id": 2,
     "name": "Sigma 35mm f/1.4 DG DN Art",
     "category": "Lens",
-    "specs": "Prime Lens, Wide f/1.4 Aperture, Sony E-mount",
-    "description": "A razor-sharp wide-aperture prime lens, perfect for capturing candid street photography at night with beautiful background bokeh."
+    "specs": "Full-Frame Prime, f/1.4, Sony E-mount",
+    "description": "A sharp wide-aperture prime lens optimized for portraits, street scenes, and environmental storytelling.",
+    "price": 89.12
+  },
+  {
+    "id": 3,
+    "name": "Canon EOS R6 Mark II",
+    "category": "Camera Body",
+    "specs": "20MP Full-Frame, 4K 60p, Dual Pixel AF",
+    "description": "A versatile full-frame mirrorless camera with excellent autofocus and image stabilization for photo and video.",
+    "price": 740.12
+  },
+  {
+    "id": 4,
+    "name": "Nikon Z6 II",
+    "category": "Camera Body",
+    "specs": "24.5MP Full-Frame, 4K 60p, Dual EXPEED 6",
+    "description": "A hybrid mirrorless body offering fast performance, reliable tracking, and strong low-light capability.",
+    "price": 624.33
+  },
+  {
+    "id": 5,
+    "name": "Fujifilm X-T5",
+    "category": "Camera Body",
+    "specs": "40.2MP APS-C, 6.2K Video, Film Simulation Modes",
+    "description": "A premium APS-C camera with beautiful color science, compact design, and powerful still-photo features.",
+    "price": 3367.49
+  },
+  {
+    "id": 6,
+    "name": "Panasonic Lumix GH6",
+    "category": "Camera Body",
+    "specs": "25.2MP Micro Four Thirds, 5.7K 60p, V-Log",
+    "description": "A video-centric body with advanced stabilization and professional video codecs for hybrid shooters.",
+    "price": 2767.41
+  },
+  {
+    "id": 7,
+    "name": "Leica SL2-S",
+    "category": "Camera Body",
+    "specs": "24MP Full-Frame, 4K 60p, Rugged Magnesium Alloy",
+    "description": "A luxury professional mirrorless camera built for durability, precision, and sharp Leica optics.",
+    "price": 5614.89
+  },
+  {
+    "id": 8,
+    "name": "Sony FE 24-70mm f/2.8 GM II",
+    "category": "Lens",
+    "specs": "Standard Zoom, Constant f/2.8, Dust and Moisture Resistant",
+    "description": "A premium zoom delivering ultra-high resolution and smooth bokeh across the focal range.",
+    "price": 116.44
+  },
+  {
+    "id": 9,
+    "name": "Canon RF 24-105mm f/4L IS USM",
+    "category": "Lens",
+    "specs": "Standard Zoom, Image Stabilization, USM AF",
+    "description": "A reliable walk-around zoom for Canon RF users offering versatility and sharpness in one package.",
+    "price": 494.56
+  },
+  {
+    "id": 10,
+    "name": "Nikon Z 24-70mm f/2.8 S",
+    "category": "Lens",
+    "specs": "Standard Zoom, f/2.8, Nano Crystal Coat",
+    "description": "A professional zoom lens engineered for excellent contrast, clarity, and autofocus speed.",
+    "price": 90.98
+  },
+  {
+    "id": 11,
+    "name": "Tamron 28-75mm f/2.8 Di III VXD",
+    "category": "Lens",
+    "specs": "Standard Zoom, Lightweight, Sony E-mount",
+    "description": "A popular fast standard zoom that balances portability with strong optical performance.",
+    "price": 205.61
+  },
+  {
+    "id": 12,
+    "name": "Sigma 14-24mm f/2.8 DG DN Art",
+    "category": "Lens",
+    "specs": "Ultra-Wide Zoom, Constant f/2.8, Sony E-mount",
+    "description": "A bright ultra-wide zoom ideal for landscape, architecture, and astrophotography.",
+    "price": 709.03
+  },
+  {
+    "id": 13,
+    "name": "Canon RF 50mm f/1.2L USM",
+    "category": "Lens",
+    "specs": "Standard Prime, f/1.2, L-Series",
+    "description": "A legendary fast prime delivering creamy bokeh and exceptional sharpness for portraits and low light.",
+    "price": 89.71
+  },
+  {
+    "id": 14,
+    "name": "Nikon Z 85mm f/1.8 S",
+    "category": "Lens",
+    "specs": "Portrait Prime, f/1.8, S-Line",
+    "description": "A medium telephoto prime with flattering rendering and precise autofocus for portrait work.",
+    "price": 188.77
+  },
+  {
+    "id": 15,
+    "name": "Sony FE 70-200mm f/2.8 GM OSS",
+    "category": "Lens",
+    "specs": "Telephoto Zoom, Optical Stabilization, f/2.8",
+    "description": "A professional telephoto zoom designed for sports, wildlife, and event photography.",
+    "price": 1323.31
+  },
+  {
+    "id": 16,
+    "name": "Canon Speedlite 600EX II-RT",
+    "category": "External Flash",
+    "specs": "High-Speed Sync, Radio TTL, Tilt/Rotate Head",
+    "description": "A powerful flash for creatives who need reliable off-camera lighting and wireless control.",
+    "price": 319.09
+  },
+  {
+    "id": 17,
+    "name": "Godox AD200 Pro",
+    "category": "External Flash",
+    "specs": "Pocket Strobe, 200Ws, TTL Support",
+    "description": "A compact battery-powered strobe ideal for location portraiture and fast-paced shoots.",
+    "price": 105.82
+  },
+  {
+    "id": 18,
+    "name": "Rode VideoMic Pro+",
+    "category": "Microphone",
+    "specs": "Shotgun Mic, High-Pass Filter, Rechargeable",
+    "description": "A popular camera-top microphone offering clear dialogue and low noise for run-and-gun filming.",
+    "price": 325.3
+  },
+  {
+    "id": 19,
+    "name": "Zoom H5",
+    "category": "Audio Recorder",
+    "specs": "4-Track, Swap Mic Capsules, SD Card",
+    "description": "A versatile field recorder for interviews, podcasts, and film production with onboard preamps.",
+    "price": 518.83
+  },
+  {
+    "id": 20,
+    "name": "DJI Ronin-S",
+    "category": "Gimbal",
+    "specs": "3-Axis Stabilizer, 8lb Payload, SmoothTrack",
+    "description": "A handheld stabilizer for DSLR and mirrorless video, enabling fluid motion shots and camera control.",
+    "price": 153.24
+  },
+  {
+    "id": 21,
+    "name": "Manfrotto Befree Advanced",
+    "category": "Tripod",
+    "specs": "Compact Travel Tripod, Ball Head, 8kg Load",
+    "description": "A travel-friendly tripod that balances stability with portable design for photographers on the move.",
+    "price": 541.87
+  },
+  {
+    "id": 22,
+    "name": "Peak Design Everyday Backpack 30L",
+    "category": "Camera Bag",
+    "specs": "Weatherproof, Quick-Access, Modular Dividers",
+    "description": "A versatile camera backpack designed for street photographers and travel shooters.",
+    "price": 262.72
+  },
+  {
+    "id": 23,
+    "name": "SanDisk Extreme Pro 128GB",
+    "category": "Memory Card",
+    "specs": "UHS-I, 170MB/s Read, 4K Video Ready",
+    "description": "A dependable SD card suitable for high-speed continuous shooting and video recording.",
+    "price": 35.08
+  },
+  {
+    "id": 24,
+    "name": "Sony NP-FZ100",
+    "category": "Battery",
+    "specs": "Lithium-Ion, 16.4Wh, High Capacity",
+    "description": "A long-lasting battery widely used in Sony mirrorless cameras for extended shooting sessions.",
+    "price": 28.61
+  },
+  {
+    "id": 25,
+    "name": "DJI RS 3 Pro",
+    "category": "Gimbal",
+    "specs": "Pro 3-Axis Stabilizer, 6.8kg Payload, Focus Wheel",
+    "description": "A professional gimbal for cinema cameras and advanced stabilization workflows.",
+    "price": 3475.74
+  },
+  {
+    "id": 26,
+    "name": "Rotolight NEO 3",
+    "category": "Video Light",
+    "specs": "Bi-Color LED, 7500 Lux, Flash Mode",
+    "description": "A compact on-camera light for hybrid shooters who need both continuous and strobe output.",
+    "price": 103.84
+  },
+  {
+    "id": 27,
+    "name": "Tiffen 77mm ND Filter",
+    "category": "Filter",
+    "specs": "10-Stop Neutral Density, Multi-Coated",
+    "description": "A strong ND filter for long exposures and wide-aperture motion blur in bright conditions.",
+    "price": 14.08
+  },
+  {
+    "id": 28,
+    "name": "BenQ SW271C",
+    "category": "Monitor",
+    "specs": "27-inch 4K, Hardware Calibration, IPS",
+    "description": "A color-critical reference monitor for photographers who need accurate image review.",
+    "price": 259.88
+  },
+  {
+    "id": 29,
+    "name": "Godox SL60W",
+    "category": "Video Light",
+    "specs": "60W LED, Bowens Mount, Flicker-Free",
+    "description": "An affordable continuous light for studio video and interview setups.",
+    "price": 683.69
+  },
+  {
+    "id": 30,
+    "name": "SmallRig Cage for Sony A7S III",
+    "category": "Camera Cage",
+    "specs": "Modular Rig, Multiple 1/4\"-20 Mounts, Cold Shoe",
+    "description": "A protective cage that expands rigging options for external monitors, mics, and lights.",
+    "price": 151.3
+  },
+  {
+    "id": 31,
+    "name": "Canon EF 16-35mm f/2.8L III USM",
+    "category": "Lens",
+    "specs": "Ultra-Wide Zoom, Weather Sealed, f/2.8",
+    "description": "A favorite for landscape and architectural photography with reliable sharpness and build quality.",
+    "price": 2609.19
+  },
+  {
+    "id": 32,
+    "name": "Nikon Z 50mm f/1.2 S",
+    "category": "Lens",
+    "specs": "Fast Prime, f/1.2, Z-Mount",
+    "description": "A premium bright prime with exceptional bokeh and detail rendering for portraits and wedding work.",
+    "price": 1868.02
+  },
+  {
+    "id": 33,
+    "name": "Sigma 85mm f/1.4 DG HSM Art",
+    "category": "Lens",
+    "specs": "Portrait Prime, f/1.4, Canon EF",
+    "description": "A classic portrait lens known for its sharpness and smooth background separation.",
+    "price": 810.12
+  },
+  {
+    "id": 34,
+    "name": "Tamron 70-180mm f/2.8 Di III VXD",
+    "category": "Lens",
+    "specs": "Telephoto Zoom, Lightweight, Sony E",
+    "description": "A travel-friendly telephoto zoom with fast aperture and responsive autofocus.",
+    "price": 5342.46
+  },
+  {
+    "id": 35,
+    "name": "Nikon Z 14-24mm f/2.8 S",
+    "category": "Lens",
+    "specs": "Ultra-Wide Zoom, 14mm to 24mm, f/2.8",
+    "description": "A professional wide-angle zoom for dramatic landscape and interior photography.",
+    "price": 410.08
+  },
+  {
+    "id": 36,
+    "name": "Canon RF 85mm f/1.2L USM",
+    "category": "Lens",
+    "specs": "Portrait Prime, f/1.2, L-Series",
+    "description": "A top-tier portrait lens with creamy bokeh and excellent edge-to-edge image quality.",
+    "price": 867.36
+  },
+  {
+    "id": 37,
+    "name": "Sony FE 16-35mm f/2.8 GM",
+    "category": "Lens",
+    "specs": "Wide Zoom, f/2.8, G Master",
+    "description": "A sharp wide-angle zoom built for landscapes, events, and immersive environmental shots.",
+    "price": 2872.6
+  },
+  {
+    "id": 38,
+    "name": "Panasonic Lumix S 24-105mm f/4 Macro O.I.S.",
+    "category": "Lens",
+    "specs": "Versatile Zoom, Macro Capable, Stabilized",
+    "description": "A do-it-all zoom for hybrid shooters who need reach, close-focus, and steady handheld shooting.",
+    "price": 1155.72
+  },
+  {
+    "id": 39,
+    "name": "Fujifilm XF 23mm f/1.4 R LM WR",
+    "category": "Lens",
+    "specs": "Wide Prime, Weather Resistant, f/1.4",
+    "description": "A classic wide-angle prime for street photographers who value speed and build durability.",
+    "price": 3302.5
+  },
+  {
+    "id": 40,
+    "name": "Canon RF 15-35mm f/2.8L IS USM",
+    "category": "Lens",
+    "specs": "Ultra-Wide Zoom, Image Stabilization, L-Series",
+    "description": "A robust zoom for expansive landscapes and architectural detail with excellent optical correction.",
+    "price": 967.52
+  },
+  {
+    "id": 41,
+    "name": "Nikon Z 85mm f/1.8 S",
+    "category": "Lens",
+    "specs": "Portrait Prime, f/1.8, Nano Crystal Coat",
+    "description": "A versatile portrait lens with reliable autofocus and sharpness for tight headshots.",
+    "price": 1675.74
+  },
+  {
+    "id": 42,
+    "name": "Sony FE 50mm f/1.8",
+    "category": "Lens",
+    "specs": "Compact Standard Prime, Lightweight, f/1.8",
+    "description": "An affordable and portable standard prime for everyday shooting and low-light use.",
+    "price": 97.5
+  },
+  {
+    "id": 43,
+    "name": "DJI Pocket 2 Creator Combo",
+    "category": "Camera Body",
+    "specs": "Mini Gimbal Camera, 4K 60p, 64MP Photo",
+    "description": "A pocket-sized stabilized camera ideal for vlogging and quick run-and-gun content creation.",
+    "price": 634.01
+  },
+  {
+    "id": 44,
+    "name": "Blackmagic Pocket Cinema Camera 6K",
+    "category": "Camera Body",
+    "specs": "6K Super 35, Dual Native ISO, EF Mount",
+    "description": "A cinema camera designed for indie filmmakers who need raw and ProRes capture in a compact package.",
+    "price": 775.85
+  },
+  {
+    "id": 45,
+    "name": "GoPro HERO11 Black",
+    "category": "Camera Body",
+    "specs": "5.3K Video, HyperSmooth 5.0, Waterproof",
+    "description": "An action camera built for adventure, rugged environments, and immersive POV footage.",
+    "price": 389.85
+  },
+  {
+    "id": 46,
+    "name": "Sony FX3",
+    "category": "Camera Body",
+    "specs": "12.1MP Full-Frame, 4K 120p, S-Cinetone",
+    "description": "A compact cinema camera optimized for solo shooters and low-light film production.",
+    "price": 644.28
+  },
+  {
+    "id": 47,
+    "name": "Canon EOS R5",
+    "category": "Camera Body",
+    "specs": "45MP Full-Frame, 8K Video, In-Body Stabilization",
+    "description": "A high-resolution mirrorless camera for photographers and videographers who want premium performance.",
+    "price": 417.97
+  },
+  {
+    "id": 48,
+    "name": "Fujifilm X-H2",
+    "category": "Camera Body",
+    "specs": "40MP APS-C, 8K Video, In-Body Stabilization",
+    "description": "A hybrid camera offering impressive resolution and a tactile control layout for creators.",
+    "price": 747.31
+  },
+  {
+    "id": 49,
+    "name": "Sony A7 IV",
+    "category": "Camera Body",
+    "specs": "33MP Full-Frame, 4K 60p, Advanced AF",
+    "description": "A flexible mirrorless camera for photographers who also need professional video tools.",
+    "price": 2418.73
+  },
+  {
+    "id": 50,
+    "name": "Panasonic Lumix S5 II",
+    "category": "Camera Body",
+    "specs": "24MP Full-Frame, 6K Video, Dual Native ISO",
+    "description": "A compact full-frame body engineered for efficient production and strong low-light capability.",
+    "price": 993.94
+  },
+  {
+    "id": 51,
+    "name": "Nikon Z 8",
+    "category": "Camera Body",
+    "specs": "45.7MP Full-Frame, 8K Video, Compact Design",
+    "description": "A flagship hybrid camera with high resolution and advanced video features in a smaller body.",
+    "price": 1011.55
+  },
+  {
+    "id": 52,
+    "name": "Canon RF 24-240mm f/4-6.3 IS USM",
+    "category": "Lens",
+    "specs": "All-in-One Zoom, Compact, Image Stabilization",
+    "description": "A travel-friendly zoom built for photographers who want broad focal coverage in one lens.",
+    "price": 197.66
+  },
+  {
+    "id": 53,
+    "name": "Sony FE 20-70mm f/4 G",
+    "category": "Lens",
+    "specs": "Standard Zoom, Lightweight, Compact",
+    "description": "A versatile lens for event photographers who need a compact optical package and good sharpness.",
+    "price": 253.33
+  },
+  {
+    "id": 54,
+    "name": "Canon RF 100-500mm f/4.5-7.1L IS USM",
+    "category": "Lens",
+    "specs": "Super-Telephoto Zoom, Image Stabilization",
+    "description": "A long-range zoom for wildlife, sports, and nature photographers with reliable autofocus.",
+    "price": 4564.31
+  },
+  {
+    "id": 55,
+    "name": "Nikon Z 24-200mm f/4-6.3 VR",
+    "category": "Lens",
+    "specs": "Travel Zoom, Vibration Reduction, Lightweight",
+    "description": "An all-purpose zoom designed for travel photographers who want convenience over extreme reach.",
+    "price": 1312.79
+  },
+  {
+    "id": 56,
+    "name": "Sigma 24-70mm f/2.8 DG DN Art",
+    "category": "Lens",
+    "specs": "Standard Zoom, Wide f/2.8, Sony E/Canon RF",
+    "description": "A bright professional zoom with strong sharpness and smooth rendering across the frame.",
+    "price": 1109.81
+  },
+  {
+    "id": 57,
+    "name": "Tamron 17-28mm f/2.8 Di III RXD",
+    "category": "Lens",
+    "specs": "Wide Zoom, Compact, Sony E",
+    "description": "A portable wide-angle zoom ideal for landscapes and architecture with a fast constant aperture.",
+    "price": 167.49
+  },
+  {
+    "id": 58,
+    "name": "Canon RF 24-105mm f/4-7.1 IS STM",
+    "category": "Lens",
+    "specs": "Versatile Zoom, STM AF, Compact",
+    "description": "A lightweight walk-around zoom for hobbyists who want a smaller kit with broad focal range.",
+    "price": 1863.15
+  },
+  {
+    "id": 59,
+    "name": "Sony FE 70-300mm f/4.5-5.6 G OSS",
+    "category": "Lens",
+    "specs": "Telephoto Zoom, Optical SteadyShot, G Series",
+    "description": "A more affordable telephoto zoom for outdoor and wildlife shooters on a budget.",
+    "price": 161.99
+  },
+  {
+    "id": 60,
+    "name": "Canon RF 16-35mm f/2.8L IS USM",
+    "category": "Lens",
+    "specs": "Ultra-Wide Zoom, Image Stabilization, L-Series",
+    "description": "A high-quality wide zoom that excels in landscapes, events, and interiors.",
+    "price": 411.71
+  },
+  {
+    "id": 61,
+    "name": "Nikon Z 50mm f/1.2 S",
+    "category": "Lens",
+    "specs": "Bright Prime, f/1.2, Z Lens",
+    "description": "A premium 50mm lens for photographers demanding top-tier bokeh and subject isolation.",
+    "price": 5734.65
+  },
+  {
+    "id": 62,
+    "name": "Sony FE 100-400mm f/4.5-5.6 GM OSS",
+    "category": "Lens",
+    "specs": "Super-Telephoto Zoom, High Resolution, OSS",
+    "description": "A super-telephoto zoom built for wildlife and sports with superb sharpness and stability.",
+    "price": 1268.03
+  },
+  {
+    "id": 63,
+    "name": "Fujifilm XF 56mm f/1.2 R",
+    "category": "Lens",
+    "specs": "Portrait Prime, f/1.2, APS-C",
+    "description": "A classic portrait lens for Fujifilm shooters seeking beautiful compression and low-light speed.",
+    "price": 885.94
+  },
+  {
+    "id": 64,
+    "name": "Manfrotto 055 Aluminum Tripod",
+    "category": "Tripod",
+    "specs": "Heavy-Duty, 8kg Load, Quick Power Lock",
+    "description": "A sturdy tripod that provides strong support for heavier DSLR and mirrorless rigs.",
+    "price": 329.9
+  },
+  {
+    "id": 65,
+    "name": "Gitzo Traveler Series 1",
+    "category": "Tripod",
+    "specs": "Carbon Fiber, 10kg Load, Compact Fold",
+    "description": "A premium travel tripod with excellent rigidity and a small folded footprint.",
+    "price": 630.59
+  },
+  {
+    "id": 66,
+    "name": "Peak Design Travel Tripod",
+    "category": "Tripod",
+    "specs": "Aluminum, 20lb Load, Rapid Deployment",
+    "description": "A versatile travel tripod engineered for photographers who need fast setup and strong stability.",
+    "price": 479.6
+  },
+  {
+    "id": 67,
+    "name": "Really Right Stuff TVC-24",
+    "category": "Tripod",
+    "specs": "Carbon Fiber, 90mm Bowl, 40lb Load",
+    "description": "A high-end tripod favored by landscape and studio professionals for exceptional stability.",
+    "price": 51.09
+  },
+  {
+    "id": 68,
+    "name": "Sirui 3T-35K",
+    "category": "Tripod",
+    "specs": "Carbon Fiber, 35mm Bowl, 26kg Load",
+    "description": "A compact carbon-fiber tripod head combination suited for heavy camera and lens setups.",
+    "price": 22.81
+  },
+  {
+    "id": 69,
+    "name": "Benro Mach3 TMA28A",
+    "category": "Tripod",
+    "specs": "Aluminum, 5 Section, 14kg Load",
+    "description": "A reliable tripod that balances load capacity with a portable design for travel shooters.",
+    "price": 72.77
+  },
+  {
+    "id": 70,
+    "name": "Zhiyun Crane 3S",
+    "category": "Gimbal",
+    "specs": "7.1kg Payload, 12-Hour Runtime, Modular Design",
+    "description": "A cinema-grade gimbal designed to carry larger mirrorless and cinema cameras with stability.",
+    "price": 361.31
+  },
+  {
+    "id": 71,
+    "name": "FeiyuTech AK2000S",
+    "category": "Gimbal",
+    "specs": "3-Axis Stabilizer, 2.2kg Payload, Touch Screen",
+    "description": "A budget-friendly gimbal with touchscreen controls and smooth follow modes.",
+    "price": 299.88
+  },
+  {
+    "id": 72,
+    "name": "Zhiyun Weebill S",
+    "category": "Gimbal",
+    "specs": "Compact 3-Axis, 3kg Payload, Sling Mode",
+    "description": "A lightweight stabilizer perfect for mirrorless shooters who need comfortable all-day use.",
+    "price": 3316.28
+  },
+  {
+    "id": 73,
+    "name": "SmallRig Magic Arm",
+    "category": "Accessory",
+    "specs": "Adjustable Articulated Arm, 1/4\"-20 and 3/8\" Attachments",
+    "description": "A useful mounting arm for attaching monitors, lights, and accessories to camera rigs.",
+    "price": 331.97
+  },
+  {
+    "id": 74,
+    "name": "Nikon MC-DC2 Remote Shutter",
+    "category": "Accessory",
+    "specs": "Wired Remote, 2m Cable, Silent Release",
+    "description": "A simple remote shutter release for long exposures, astrophotography, and tripod use.",
+    "price": 22.55
+  },
+  {
+    "id": 75,
+    "name": "Canon RS-80N3 Remote Switch",
+    "category": "Accessory",
+    "specs": "Wired Remote, DSLR Compatible, Lock Mode",
+    "description": "A dependable shutter remote for Canon photographers shooting long exposures and timelapse.",
+    "price": 115.28
+  },
+  {
+    "id": 76,
+    "name": "Sony A7C",
+    "category": "Camera Body",
+    "specs": "24MP Full-Frame, Compact Rangefinder Style, 5-Axis IS",
+    "description": "A petite full-frame mirrorless camera suited for travel and street shooters seeking portability.",
+    "price": 1099.71
+  },
+  {
+    "id": 77,
+    "name": "Fujifilm X-T30 II",
+    "category": "Camera Body",
+    "specs": "26MP APS-C, 4K 30p, Classic Controls",
+    "description": "A compact mirrorless body that blends strong imaging capability with tactile handling.",
+    "price": 6042.79
+  },
+  {
+    "id": 78,
+    "name": "Canon EOS M50 Mark II",
+    "category": "Camera Body",
+    "specs": "24MP APS-C, 4K Video, Vari-Angle Touchscreen",
+    "description": "A beginner-friendly mirrorless camera popular with vloggers and content creators.",
+    "price": 1353.41
+  },
+  {
+    "id": 79,
+    "name": "Nikon Z fc",
+    "category": "Camera Body",
+    "specs": "20.9MP APS-C, Retro Design, SnapBridge",
+    "description": "A stylistic mirrorless camera with modern performance and a nostalgic control layout.",
+    "price": 715.87
+  },
+  {
+    "id": 80,
+    "name": "Sony ZV-1",
+    "category": "Camera Body",
+    "specs": "20.1MP 1\" Sensor, 4K Video, Directional Mic",
+    "description": "A pocket vlogging camera built for content creators who need simplicity and mobility.",
+    "price": 674.22
+  },
+  {
+    "id": 81,
+    "name": "Lumix G 12-60mm f/3.5-5.6",
+    "category": "Lens",
+    "specs": "Micro Four Thirds Zoom, Power O.I.S., Compact",
+    "description": "A useful all-in-one zoom for MFT users who want everyday flexibility with stabilization.",
+    "price": 903.0
+  },
+  {
+    "id": 82,
+    "name": "Sigma 24-70mm f/2.8 DG DN Art",
+    "category": "Lens",
+    "specs": "Fast Standard Zoom, Art Series, Multi-Coated",
+    "description": "A strong lens option for photographers who need consistent sharpness and contrast.",
+    "price": 248.74
+  },
+  {
+    "id": 83,
+    "name": "Tamron 18-300mm f/3.5-6.3 Di III VC VXD",
+    "category": "Lens",
+    "specs": "Superzoom, Vibration Compensation, Sony E",
+    "description": "A superzoom that covers wide to super-telephoto for all-in-one travel convenience.",
+    "price": 998.22
+  },
+  {
+    "id": 84,
+    "name": "Canon EF 70-200mm f/2.8L IS III USM",
+    "category": "Lens",
+    "specs": "Telephoto Zoom, f/2.8, Image Stabilization",
+    "description": "A professional telephoto standard among wedding, sports, and portrait photographers.",
+    "price": 3859.78
+  },
+  {
+    "id": 85,
+    "name": "Nikon AF-S 50mm f/1.8G",
+    "category": "Lens",
+    "specs": "Standard Prime, f/1.8, FX Format",
+    "description": "An affordable classic standard prime with good sharpness and lightweight design.",
+    "price": 448.74
+  },
+  {
+    "id": 86,
+    "name": "Sony FE 85mm f/1.4 GM",
+    "category": "Lens",
+    "specs": "Portrait Prime, f/1.4, G Master",
+    "description": "An acclaimed portrait lens with beautifully rendered out-of-focus areas.",
+    "price": 206.22
+  },
+  {
+    "id": 87,
+    "name": "Fujifilm XF 50-140mm f/2.8 R LM OIS WR",
+    "category": "Lens",
+    "specs": "Telephoto Zoom, f/2.8, Weather Sealed",
+    "description": "A pro-grade telephoto zoom for Fujifilm shooters capturing sports and wildlife.",
+    "price": 5936.55
+  },
+  {
+    "id": 88,
+    "name": "Canon RF 100mm f/2.8L Macro IS USM",
+    "category": "Lens",
+    "specs": "True Macro, IS, 1.4x Magnification",
+    "description": "A high-performance macro lens for close-up photography with sharp details.",
+    "price": 721.91
+  },
+  {
+    "id": 89,
+    "name": "Nikon Z 24-120mm f/4 S",
+    "category": "Lens",
+    "specs": "Everyday Zoom, Constant f/4, S-Line",
+    "description": "An ideal walk-around zoom for hybrid shooters looking for all-purpose reach and consistency.",
+    "price": 118.45
+  },
+  {
+    "id": 90,
+    "name": "Sony FE 12-24mm f/2.8 GM",
+    "category": "Lens",
+    "specs": "Ultra-Wide Zoom, f/2.8, G Master",
+    "description": "A high-end wide-angle zoom delivering excellent edge-to-edge sharpness for landscapes.",
+    "price": 98.05
+  },
+  {
+    "id": 91,
+    "name": "Peak Design Slide Lite Strap",
+    "category": "Accessory",
+    "specs": "Quick-Adjust, Padded, Universal Mount",
+    "description": "A comfortable camera strap designed for fast transitions between shoulders and belts.",
+    "price": 8.45
+  },
+  {
+    "id": 92,
+    "name": "Lowepro ProTactic 450 AW II",
+    "category": "Camera Bag",
+    "specs": "Modular Interior, All-Weather Cover, Quick Access",
+    "description": "A pro-grade backpack built for demanding photographers carrying heavy gear setups.",
+    "price": 202.41
+  },
+  {
+    "id": 93,
+    "name": "Think Tank Airport International",
+    "category": "Camera Bag",
+    "specs": "Wheeled Carry-On, TSA-Friendly, Durable",
+    "description": "A travel roller bag designed for airline travel with gear-safe compartments and easy transport.",
+    "price": 371.53
+  },
+  {
+    "id": 94,
+    "name": "Nikon MB-N10 Battery Pack",
+    "category": "Accessory",
+    "specs": "Extra Battery Grip, Vertical Controls, Weather Sealed",
+    "description": "A battery grip that extends runtime and improves handling for vertical shots.",
+    "price": 37.73
+  },
+  {
+    "id": 95,
+    "name": "Canon BG-R10 Battery Grip",
+    "category": "Accessory",
+    "specs": "Extended Battery Life, Vertical Shutter, Weather Sealed",
+    "description": "A grip for Canon mirrorless shooters who need longer shooting times and better ergonomics.",
+    "price": 6.78
+  },
+  {
+    "id": 96,
+    "name": "Sony VG-C4EM Battery Grip",
+    "category": "Accessory",
+    "specs": "Vertical Controls, Dual Battery, Dust Resistant",
+    "description": "A rugged grip for Sony full-frame mirrorless bodies with extended shooting capacity.",
+    "price": 31.08
+  },
+  {
+    "id": 97,
+    "name": "SanDisk Extreme Pro CFexpress Type B 128GB",
+    "category": "Memory Card",
+    "specs": "CFexpress Type B, 1,700MB/s Read, 4K/8K Ready",
+    "description": "A high-speed card built for fast burst shooting and high bitrate video capture.",
+    "price": 394.32
+  },
+  {
+    "id": 98,
+    "name": "G-Technology ArmorATD 4TB",
+    "category": "Storage",
+    "specs": "Rugged External SSD, 1050MB/s, Drop Resistant",
+    "description": "A portable storage drive that protects photos and video on location under harsh conditions.",
+    "price": 268.69
+  },
+  {
+    "id": 99,
+    "name": "Rotolight Anova PRO 2",
+    "category": "Lighting Kit",
+    "specs": "Bi-Color LED, 56\u00b0 Beam, SmartSoft Technology",
+    "description": "A studio-quality LED fixture offering fine control for portraits, interviews, and cinematic lighting.",
+    "price": 2232.56
+  },
+  {
+    "id": 100,
+    "name": "Aputure Amaran 100d",
+    "category": "Lighting Kit",
+    "specs": "Daylight LED, Bowens Mount, High CRI",
+    "description": "A bright and affordable LED light for studio and location videography.",
+    "price": 1450.14
+  },
+  {
+    "id": 101,
+    "name": "Tascam DR-10L",
+    "category": "Audio Recorder",
+    "specs": "Lavalier Mic Kit, Lightweight, Dual Recording",
+    "description": "A discreet recorder for run-and-gun interviews and field dialogue capture.",
+    "price": 51.69
+  },
+  {
+    "id": 102,
+    "name": "Rode Wireless GO II",
+    "category": "Audio Recorder",
+    "specs": "Dual-Channel Wireless Mic, USB-C, Onboard Recording",
+    "description": "A compact wireless microphone system for vloggers and mobile interview setups.",
+    "price": 401.49
+  },
+  {
+    "id": 103,
+    "name": "BlackRapid Sport Breathe",
+    "category": "Accessory",
+    "specs": "Sling Strap, Quick-Release, Comfortable Padding",
+    "description": "A sling strap designed for fast movement and easy access to your camera on the go.",
+    "price": 130.73
+  },
+  {
+    "id": 104,
+    "name": "Tenba Roadie 18",
+    "category": "Camera Bag",
+    "specs": "Roll-Top Backpack, Weatherproof, Laptop Sleeve",
+    "description": "A versatile backpack for carrying camera gear plus laptop and personal items.",
+    "price": 144.97
+  },
+  {
+    "id": 105,
+    "name": "Joby GorillaPod 5K",
+    "category": "Tripod",
+    "specs": "Flexible Legs, 5kg Payload, Compact",
+    "description": "A portable tripod that wraps around railings, branches, and uneven surfaces for creative angles.",
+    "price": 59.63
+  },
+  {
+    "id": 106,
+    "name": "Sirui ET-2204",
+    "category": "Tripod",
+    "specs": "Carbon Fiber Travel Tripod, 4 Sections, 9kg Load",
+    "description": "A lightweight travel tripod that supports mirrorless and DSLR kits without bulky weight.",
+    "price": 275.9
+  },
+  {
+    "id": 107,
+    "name": "Meike 35mm f/1.4 APS-C",
+    "category": "Lens",
+    "specs": "Fast Prime, APS-C, Manual Focus",
+    "description": "An affordable bright prime with smooth bokeh for crop-sensor photographers.",
+    "price": 129.5
+  },
+  {
+    "id": 108,
+    "name": "Tokina 11-16mm f/2.8 II",
+    "category": "Lens",
+    "specs": "Ultra-Wide APS-C Zoom, Fast f/2.8",
+    "description": "A popular wide-angle zoom for landscape, architecture, and astrophotography on crop-sensor bodies.",
+    "price": 522.76
+  },
+  {
+    "id": 109,
+    "name": "Vanguard Alta Pro 2+ 263AB",
+    "category": "Tripod",
+    "specs": "Adjustable Central Column, 8kg Load",
+    "description": "A versatile tripod for studio and outdoor use with flexible angle control and stability.",
+    "price": 128.18
+  },
+  {
+    "id": 110,
+    "name": "Manfrotto 502 Video Head",
+    "category": "Accessory",
+    "specs": "Fluid Drag, Counterbalance, 5kg Capacity",
+    "description": "A video head that provides smooth panning and tilting for documentary filmmakers.",
+    "price": 480.98
+  },
+  {
+    "id": 111,
+    "name": "Tilta Nucleus-M Wireless Follow Focus",
+    "category": "Accessory",
+    "specs": "Motorized Focus Control, Handwheel, Wireless",
+    "description": "A focus system for cinema rigs that allows remote focus pulls with precision.",
+    "price": 331.15
+  },
+  {
+    "id": 112,
+    "name": "Neutral Density 3-Stop Kit",
+    "category": "Filter",
+    "specs": "ND 0.9, Multi-Coated, Glass",
+    "description": "A set of ND filters for long exposures, shallow depth-of-field, and motion blur effects.",
+    "price": 26.42
+  },
+  {
+    "id": 113,
+    "name": "Circular Polarizer 77mm",
+    "category": "Filter",
+    "specs": "CPL, Anti-Reflective Coating, Landscape Use",
+    "description": "A filter that reduces reflections and enhances sky saturation for outdoor photography.",
+    "price": 63.38
+  },
+  {
+    "id": 114,
+    "name": "Gaffer Tape 2\" Black",
+    "category": "Accessory",
+    "specs": "Matte Cloth Tape, Repositionable, Tear-Resistant",
+    "description": "A standard grip accessory for securing cables, flags, and small lighting setups on set.",
+    "price": 11.76
+  },
+  {
+    "id": 115,
+    "name": "Sony FE 35mm f/1.4 GM",
+    "category": "Lens",
+    "specs": "Standard Prime, f/1.4, G Master",
+    "description": "A sharp, natural field-of-view lens for portraits, street scenes, and low-light shooting.",
+    "price": 4114.56
+  },
+  {
+    "id": 116,
+    "name": "Canon RF 70-200mm f/2.8L IS USM",
+    "category": "Lens",
+    "specs": "Telephoto Zoom, Image Stabilization, f/2.8",
+    "description": "A professional telephoto workhorse for event, wedding, and wildlife photographers.",
+    "price": 3430.56
+  },
+  {
+    "id": 117,
+    "name": "Nikon Z 14-30mm f/4 S",
+    "category": "Lens",
+    "specs": "Ultra-Wide Zoom, Slim Profile, f/4",
+    "description": "A compact wide-angle zoom well-suited for travel and architectural photography.",
+    "price": 290.2
+  },
+  {
+    "id": 118,
+    "name": "Fujifilm XF 16-55mm f/2.8 R LM WR",
+    "category": "Lens",
+    "specs": "Standard Zoom, Constant f/2.8, Weather Resistant",
+    "description": "A high-performance zoom for Fujifilm APS-C shooters requiring sharpness and durability.",
+    "price": 1262.29
+  },
+  {
+    "id": 119,
+    "name": "Pelican 1510 Case",
+    "category": "Accessory",
+    "specs": "Watertight, Crushproof, Telescoping Handle",
+    "description": "A rugged protective case for transporting cameras, lenses, and lighting gear safely.",
+    "price": 92.28
+  },
+  {
+    "id": 120,
+    "name": "Anker PowerCore 26800",
+    "category": "Accessory",
+    "specs": "Portable Charger, 26,800mAh, USB-C PD",
+    "description": "A high-capacity power bank for charging devices and powering accessories on location.",
+    "price": 10.39
+  },
+  {
+    "id": 121,
+    "name": "Wacom Intuos Pro",
+    "category": "Accessory",
+    "specs": "Graphics Tablet, Pressure Sensitive, Bluetooth",
+    "description": "A creative tool for retouching and editing images with precision in post-production.",
+    "price": 192.47
+  },
+  {
+    "id": 122,
+    "name": "Apple MacBook Pro 14-inch",
+    "category": "Accessory",
+    "specs": "M2 Pro, 16GB RAM, XDR Display",
+    "description": "A portable editing workstation for photographers who need color-accurate image processing.",
+    "price": 66.14
+  },
+  {
+    "id": 123,
+    "name": "Aputure MC RGBWW",
+    "category": "Video Light",
+    "specs": "Pocket-Sized, Full Color, Wireless Control",
+    "description": "A pocket light for creative accent lighting and practical on-camera illumination.",
+    "price": 530.31
+  },
+  {
+    "id": 124,
+    "name": "Macro Rail Focusing Slider",
+    "category": "Accessory",
+    "specs": "Precision Focus Rail, 7-inch, Smooth Travel",
+    "description": "A macro focusing rail for close-up photography requiring fine focus adjustment.",
+    "price": 63.34
+  },
+  {
+    "id": 125,
+    "name": "Neewer 660 LED Video Light",
+    "category": "Video Light",
+    "specs": "Bi-Color, Bowens Mount, Dimmable",
+    "description": "An affordable LED panel for YouTube, interviews, and small studio setups.",
+    "price": 30.06
+  },
+  {
+    "id": 126,
+    "name": "Rode NTG3",
+    "category": "Microphone",
+    "specs": "Shotgun Condenser, RF-Bias, Broadcast Quality",
+    "description": "A broadcast-grade shotgun mic for location sound and filmmaking with low self-noise.",
+    "price": 140.08
+  },
+  {
+    "id": 127,
+    "name": "Sony GP-VPT2BT Grip",
+    "category": "Accessory",
+    "specs": "Bluetooth Shooting Grip, Tripod Function, Zoom Control",
+    "description": "A compact grip for Sony action cams and mirrorless cameras, with remote controls.",
+    "price": 5.49
+  },
+  {
+    "id": 128,
+    "name": "Peak Design Capture Clip",
+    "category": "Accessory",
+    "specs": "Camera Clip, Universal Fit, Secure Carry",
+    "description": "A no-bounce camera clip that attaches to straps or belts for quick access in the field.",
+    "price": 427.3
+  },
+  {
+    "id": 129,
+    "name": "Think Tank Mirrorless Mover 30",
+    "category": "Camera Bag",
+    "specs": "Compact, Customizable, Laptop Slot",
+    "description": "A small shoulder bag for mirrorless shooters carrying camera, lens, and personal items.",
+    "price": 511.44
+  },
+  {
+    "id": 130,
+    "name": "Rode Lavalier II",
+    "category": "Microphone",
+    "specs": "Professional Lavalier, Omni Pattern, TRS/USB",
+    "description": "A high-quality lapel mic for interviews, vlogging, and presentation work.",
+    "price": 702.82
+  },
+  {
+    "id": 131,
+    "name": "Saramonic Blink 500 B3",
+    "category": "Audio Recorder",
+    "specs": "Wireless Lavalier Kit, Dual Channel, USB-C",
+    "description": "A wireless mic system designed for mobile filmmakers and content creators.",
+    "price": 121.61
+  },
+  {
+    "id": 132,
+    "name": "Blackmagic Design Pocket Cinema Camera 4K",
+    "category": "Camera Body",
+    "specs": "4K DCI, Dual ISO, Compact Form Factor",
+    "description": "A cinema camera offering professional codecs and color science for indie film projects.",
+    "price": 362.84
+  },
+  {
+    "id": 133,
+    "name": "Sony FE 12-24mm f/4 G",
+    "category": "Lens",
+    "specs": "Ultra-Wide Zoom, Constant f/4, Compact",
+    "description": "A light and portable wide-angle zoom for travel landscape and interior photography.",
+    "price": 3543.33
+  },
+  {
+    "id": 134,
+    "name": "Canon EF 85mm f/1.4L IS USM",
+    "category": "Lens",
+    "specs": "Portrait Prime, f/1.4, Image Stabilization",
+    "description": "A medium telephoto prime with vibration reduction designed for sharper hand-held portraits.",
+    "price": 4771.76
+  },
+  {
+    "id": 135,
+    "name": "Nikon Z 24-120mm f/4 S",
+    "category": "Lens",
+    "specs": "Standard Zoom, Constant f/4, Zoom Lock",
+    "description": "A reliable all-purpose zoom with consistent performance across the frame.",
+    "price": 115.8
+  },
+  {
+    "id": 136,
+    "name": "Tamron 70-210mm f/4 Di VC USD",
+    "category": "Lens",
+    "specs": "Telephoto Zoom, Constant f/4, Vibration Compensation",
+    "description": "A mid-range telephoto zoom favored for outdoor portraiture and travel.",
+    "price": 652.16
+  },
+  {
+    "id": 137,
+    "name": "Sigma 100-400mm f/5-6.3 DG DN OS",
+    "category": "Lens",
+    "specs": "Super-Telephoto Zoom, Optical Stabilization, Sony E",
+    "description": "An affordable telephoto zoom optimized for wildlife and sports photography.",
+    "price": 107.86
+  },
+  {
+    "id": 138,
+    "name": "Nikon Z 24mm f/1.8 S",
+    "category": "Lens",
+    "specs": "Wide Prime, f/1.8, Compact Design",
+    "description": "A fast wide prime with minimal distortion and strong edge sharpness.",
+    "price": 2134.35
+  },
+  {
+    "id": 139,
+    "name": "Canon RF 14-35mm f/4L IS USM",
+    "category": "Lens",
+    "specs": "Wide Zoom, Constant f/4, IS",
+    "description": "A bright wide-angle zoom well-suited to travel and scenic photography.",
+    "price": 2183.11
   }
 ]

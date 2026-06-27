@@ -58,7 +58,8 @@ async def discover_gear(search: SearchQuery):
             "name": hit.payload.get("name"),
             "category": hit.payload.get("category"),
             "specs": hit.payload.get("specs"),
-            "description": hit.payload.get("description")
+            "description": hit.payload.get("description"),
+            "price": hit.payload.get("price")
         })
         
     return {"query": search.query, "results": results}

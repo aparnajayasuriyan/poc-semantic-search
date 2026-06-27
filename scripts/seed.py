@@ -48,7 +48,7 @@ def seed_database():
     points = []
     for product in products:
         # Create a single textual chunk for the AI to understand context
-        text_to_embed = f"{product['name']} - {product['specs']} - {product['description']}"
+        text_to_embed = f"{product['name']} - {product['specs']} - {product['description']} - {product['category']}"
         vector = get_embedding(text_to_embed)
         
         points.append(
@@ -59,7 +59,8 @@ def seed_database():
                     "name": product["name"],
                     "category": product["category"],
                     "specs": product["specs"],
-                    "description": product["description"]
+                    "description": product["description"],
+                    "price": product.get("price")
                 }
             )
         )
