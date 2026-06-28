@@ -1,10 +1,11 @@
 import os
+import time
 
 import requests
 import streamlit as st
 
 # Configure page layout and style
-st.set_page_config(page_title="LensMind", layout="wide")
+st.set_page_config(page_title="Semantic Search", layout="wide")
 
 page_bg = "#f6f6f6"
 card_bg = "#ffffff"
@@ -99,58 +100,74 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.markdown("# LensMind")
-st.markdown("### Discover the right camera gear with a more intuitive, polished search experience.")
-st.markdown(
-    "Describe your shoot, mood, or workflow and LensMind maps that intent to camera bodies, lenses, lighting, and accessories."
-)
-
 BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 
-query_col, empty_col = st.columns([3, 1])
-with query_col:
+page_left, page_center, page_right = st.columns([1, 2, 1])
+with page_center:
+    st.markdown("# Product Discovery with Semantic Search")
+    st.markdown("### Discover the right camera gear with a more intuitive, polished search experience.")
+    st.markdown(
+        "Describe your shoot, mood, or workflow and Semantic Search maps that intent to camera bodies, lenses, lighting, and accessories."
+    )
+
     user_query = st.text_input(
         label="Search",
         placeholder="e.g., cinematic night portraits with soft backlight and shallow depth of field",
         label_visibility="collapsed",
     )
+
+    button_col_left, button_col_right = st.columns([1, 1])
+    with button_col_left:
+        discover_button = st.button("Semantic Search")
+    with button_col_right:
+        normal_button = st.button("Normal Search")
+
     st.markdown("---")
-    search_button = st.button("Discover Gear")
 
-if search_button and user_query:
-    API_URL = f"{BACKEND_URL}/api/v1/discover"
-    payload = {"query": user_query, "limit": 3}
+    if normal_button:
+        with st.spinner("Running normal search..."):
+            time.sleep(1.4)
+        st.info("No results found")
 
-    with st.spinner("Analyzing semantic vector proximity..."):
-        try:
-            response = requests.post(API_URL, json=payload, timeout=10)
-            response.raise_for_status()
-            search_results = response.json().get("results", [])
+    if discover_button and user_query:
+        API_URL = f"{BACKEND_URL}/api/v1/discover"
+        payload = {"query": user_query, "limit": 3}
 
-            if not search_results:
-                st.info("No matching gear vectors found for that specific description.")
+        with st.spinner("Analyzing semantic vector proximity..."):
+            time.sleep(1.4)
+            try:
+                response = requests.post(API_URL, json=payload, timeout=10)
+                response.raise_for_status()
+                search_results = response.json().get("results", [])
 
-            for item in search_results:
-                st.markdown(
-                    f"<div class='result-card'>",
-                    unsafe_allow_html=True,
-                )
-                col1, col2 = st.columns([3, 1])
+                if not search_results:
+                    st.info("No matching gear vectors found for that specific description.")
 
-                with col1:
-                    st.markdown(f"### {item['name']}")
-                    price = item.get('price')
-                    price_text = f"${price:.2f}" if isinstance(price, (int, float)) else "N/A"
+                for item in search_results:
                     st.markdown(
-                        f"<div class='result-meta'>📁 {item['category']} | 🛠️ {item['specs']} &nbsp;&nbsp; <span class='price-tag'>{price_text}</span></div>",
+                        f"<div class='result-card'>",
                         unsafe_allow_html=True,
                     )
-                    st.write(item['description'])
+                    col1, col2 = st.columns([3, 1])
 
-                with col2:
-                    st.metric(label="Vector Match", value=f"{item['confidence_score']:.4f}")
+                    with col1:
+                        st.markdown(f"### {item['name']}")
+                        price = item.get('price')
+                        price_text = f"${price:.2f}" if isinstance(price, (int, float)) else "N/A"
+                        st.markdown(
+                            f"<div class='result-meta'>📁 {item['category']} | 🛠️ {item['specs']} &nbsp;&nbsp; <span class='price-tag'>{price_text}</span></div>",
+                            unsafe_allow_html=True,
+                        )
+                        st.write(item['description'])
 
-                st.markdown("</div>", unsafe_allow_html=True)
+                    with col2:
+                        st.markdown(
+                            f"<div style='color: {text_color}; font-weight: 700; font-size: 1rem; margin-bottom: 0.4rem;'>Vector Match</div>"
+                            f"<div style='color: {text_color}; font-size: 2rem; font-weight: 800;'>{item['confidence_score']:.4f}</div>",
+                            unsafe_allow_html=True,
+                        )
 
-        except requests.exceptions.RequestException as e:
-            st.error(f"Could not connect to FastAPI Backend Services: {str(e)}")
+                    st.markdown("</div>", unsafe_allow_html=True)
+
+            except requests.exceptions.RequestException as e:
+                st.error(f"Could not connect to FastAPI Backend Services: {str(e)}")
